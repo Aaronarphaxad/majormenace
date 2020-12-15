@@ -1,0 +1,145 @@
+
+.container-fluid {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Nerko One';
+}
+
+hr {
+  border: 0;
+   height: 1px;
+   background: yellow;
+   background-image: linear-gradient(to right, yellow, yellow, yellow);
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #404040 !important;
+}
+.logo {
+  width: 20%;
+  margin-left: 0;
+  border-radius: 25%;
+}
+.nav-link {
+  color: yellow !important;
+  font-size: 1rem;
+
+}
+
+.dropdown-menu {
+  background-color: #404040 !important;
+}
+
+.dropdown-item {
+  color: yellow !important;
+}
+
+
+
+/* Content */
+
+
+/* characters */
+.character-img{
+  padding: 20px;
+  width: 50%;
+  border-radius: 100%;
+}
+
+#characters {
+  background-color: #404040;
+  color: yellow;
+  padding-top: 50px;
+}
+.char-p {
+  padding: 30px;
+}
+
+
+
+/* About */
+#about {
+  color: yellow;
+  background-color: #404040;
+  padding: 50px;
+}
+
+.about-text{
+  text-align: justify;
+}
+
+.hr-top {
+  margin-bottom: 50px;
+}
+
+.hr-bottom {
+  margin-top: 50px;
+}
+
+/* Meet Us */
+#meet-us {
+  background-color: #404040;
+  color: yellow;
+}
+
+.btn {
+  background-color: yellow !important;
+  color: #404040 !important;
+}
+
+
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+.btn:hover {
+  animation: bounce 1s;
+  background-color: #ffaf1c !important;
+  color: #404040 !important;
+}
+
+.card{
+  align-items: center;
+  padding-top: 20px;
+  margin: 20px;
+}
+
+.meetUs-img{
+  width: 30%;
+  border-radius: 100%;
+}
+
+.meetUs-h1{
+  padding: 50px;
+}
+
+/* Footer */
+#footer {
+  padding: 50px;
+  background-color: #404040;
+  color: yellow;
+}
+
+.footer-icons{
+  color: yellow;
+}
+
+.fab {
+  padding-right: 15px;
+}
